@@ -17,5 +17,10 @@ public class ListNode {
         this.val = val;
         this.next = next;
     }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
 
